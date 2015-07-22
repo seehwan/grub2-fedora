@@ -19,7 +19,7 @@
 #include <grub/symbol.h>
 #include <grub/dl.h>
 
-	.file	"setjmp.S"
+	.file	"grub-core/lib/mips/setjmp.S"
 
 GRUB_MOD_LICENSE "GPLv3+"
 
