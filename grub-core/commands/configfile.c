@@ -44,7 +44,7 @@ grub_cmd_source (grub_command_t cmd, int argc, char **args)
     grub_env_context_open ();
   if (extractor)
     grub_env_extractor_open (!new_env);
-
+/*TPM Measure Point*/
   grub_normal_execute (args[0], 1, ! new_env);
 
   if (new_env && !extractor)
